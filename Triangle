@@ -1,0 +1,30 @@
+Sketch a class Diagram  describing the circle and rectangle class.
+abstract class Shape {
+    abstract void numberofsides();
+}
+class triangle extends Shape {
+    void numberofsides() {
+        System.out.println("Triangle has three sides");
+    }
+}
+class Trapezoid extends Shape{
+    void numberofsides(){
+        System.out.println("Trapezoid has five sides");
+    }
+}
+class Hexagon extends Shape{
+    void numberofsides(){
+        System.out.println("Hexagon  has six sides");
+    }
+}
+    public class triangle1{
+        public static void main(String args[]){
+            Shape s = new triangle();
+            s.numberofsides();
+            Shape ss = new Trapezoid();
+            ss.numberofsides();
+            Shape sa = new Hexagon();
+            sa.numberofsides();
+        }
+    }
+
