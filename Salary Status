@@ -1,0 +1,20 @@
+Write code which uses if then else statement to check if  a given balance is greater or lesser than the minimum
+balance . Write a class BankCheck with public method checkBalance that takes one parameter balance of type double.Use if then else statement and
+print Balance is low if balance is less than 1000 otherwise  print sufficient balance.
+import java.util.*;
+class Array{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Salary is : ");
+        int salary = sc.nextInt();
+        if(salary<1000){
+            System.out.println("Less than minimum salary:");
+        }
+        else if(salary==1000){
+            System.out.println("Salary is minimum :");
+        }
+        else{
+          System.out.println("Salary is sufficient :");   
+        }
+    }
+}
