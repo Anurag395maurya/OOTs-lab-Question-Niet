@@ -1,0 +1,10 @@
+Write a code to implement Function/Methods in java
+public class function {
+    public static String hello(){
+        System.out.print("hello world");
+    return "";
+    }
+    public static void main(String args[]){
+        System.out.println(hello());
+    }
+}
